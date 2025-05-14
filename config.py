@@ -1,5 +1,5 @@
 
-dataset_root="/root/autodl-tmp/Datasets/"
+dataset_root="/Datasets/"
 def get_config(dataname,type,train):
     if "tcga" in dataname:
         if "ctrans" in type:
